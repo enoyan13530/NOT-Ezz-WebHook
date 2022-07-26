@@ -79,12 +79,20 @@ namespace NOT_Ezz_WebHook
 
             if (URL == "")
             {
+<<<<<<< HEAD
                 ShowMessageBox("URLが入力されていません。", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+=======
+                MessageBox.Show("URLが入力されていません。", TITLE, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
                 return;
             }
             if (Name == "")
             {
+<<<<<<< HEAD
                 ShowMessageBox("Nameが入力されていません。", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+=======
+                MessageBox.Show("Nameが入力されていません。", TITLE, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
                 return;
             }
 
@@ -95,7 +103,11 @@ namespace NOT_Ezz_WebHook
             {
                 if (Message == "")
                 {
+<<<<<<< HEAD
                     ShowMessageBox("Messageが入力されていません。", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+=======
+                    MessageBox.Show("Messageが入力されていません。", TITLE, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
                     return;
                 }
                 DiscordMessage = new DiscordMessage(
@@ -109,35 +121,54 @@ namespace NOT_Ezz_WebHook
             {
                 if (ColorEmbedText.Text == "")
                 {
+<<<<<<< HEAD
                     ShowMessageBox("Colorが設定されていません。", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+=======
+                    MessageBox.Show("Colorが設定されていません。", TITLE, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
                     return;
                 }
 
                 string Title = EmbedTitle.Text;
                 string Description = DescriptionEmbed.Text;
+<<<<<<< HEAD
                 string Footer = FooterEmbed.Text;
+=======
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
                 int color = Int32.Parse(ColorEmbedText.Text);
 
                 if (Title == "")
                 {
+<<<<<<< HEAD
                     ShowMessageBox("Titleが入力されていません。", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+=======
+                    MessageBox.Show("Titleが入力されていません。", TITLE, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
                     return;
                 }
                 if (Description == "")
                 {
+<<<<<<< HEAD
                     ShowMessageBox("Descriptionが入力されていません。", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     return;
                 }
                 if (Footer == "")
                 {
                     ShowMessageBox("Footerが入力されていません。", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+=======
+                    MessageBox.Show("Descriptionが入力されていません。", TITLE, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
                     return;
                 }
                 DiscordMessageEmbed MessageEmbed = new DiscordMessageEmbed(
                     Title,
                     color: color,
+<<<<<<< HEAD
                     description: Description,
                     footer: new DiscordMessageEmbedFooter(Footer)
+=======
+                    description: Description
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
                 );
                 DiscordMessage = new DiscordMessage(
                     Message,
@@ -150,6 +181,7 @@ namespace NOT_Ezz_WebHook
                     }
                 );
             }
+<<<<<<< HEAD
             try
             {
                 await client.SendToDiscord(DiscordMessage);
@@ -164,6 +196,10 @@ namespace NOT_Ezz_WebHook
         private static void ShowMessageBox(string text, MessageBoxButtons button, MessageBoxIcon icon)
         {
             MessageBox.Show(text, "NOT-Ezz-WebHook", button, icon);
+=======
+
+            await client.SendToDiscord(DiscordMessage);
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
         }
 
         private String toUnicode(String text)
@@ -190,10 +226,13 @@ namespace NOT_Ezz_WebHook
             //Console.WriteLine(Unicode);
             return Unicode;
         }
+<<<<<<< HEAD
 
         private void label10_Click(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
     }
 }
