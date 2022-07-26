@@ -432,9 +432,8 @@
   <data name="&gt;&gt;EmbedCheckbox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-<<<<<<< HEAD
   <data name="FooterEmbed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 221</value>
+    <value>109, 224</value>
   </data>
   <data name="FooterEmbed.Size" type="System.Drawing.Size, System.Drawing">
     <value>234, 19</value>
@@ -481,17 +480,11 @@
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-=======
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   <data name="ColorEmbedText.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="ColorEmbedText.Location" type="System.Drawing.Point, System.Drawing">
-<<<<<<< HEAD
     <value>109, 273</value>
-=======
-    <value>109, 221</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="ColorEmbedText.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 19</value>
@@ -509,17 +502,10 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;ColorEmbedText.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>2</value>
   </data>
   <data name="ColorEmbedButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>259, 271</value>
-=======
-    <value>0</value>
-  </data>
-  <data name="ColorEmbedButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 219</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="ColorEmbedButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 23</value>
@@ -540,21 +526,13 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;ColorEmbedButton.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>3</value>
-=======
-    <value>1</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-<<<<<<< HEAD
     <value>38, 276</value>
-=======
-    <value>42, 224</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 12</value>
@@ -575,11 +553,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>4</value>
-=======
-    <value>2</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="DescriptionEmbed.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 97</value>
@@ -609,11 +583,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;DescriptionEmbed.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>5</value>
-=======
-    <value>3</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -640,11 +610,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>6</value>
-=======
-    <value>4</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="EmbedTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 61</value>
@@ -668,11 +634,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;EmbedTitle.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>7</value>
-=======
-    <value>5</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -699,11 +661,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>8</value>
-=======
-    <value>6</value>
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>481, 68</value>

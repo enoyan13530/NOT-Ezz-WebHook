@@ -42,6 +42,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.EmbedCheckbox = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.FooterEmbed = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.ColorEmbedText = new System.Windows.Forms.TextBox();
             this.ColorEmbedButton = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -50,8 +52,6 @@
             this.EmbedTitle = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.ColorEmbed = new System.Windows.Forms.ColorDialog();
-            this.label10 = new System.Windows.Forms.Label();
-            this.FooterEmbed = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -147,6 +147,20 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
+            // FooterEmbed
+            // 
+            this.FooterEmbed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.FooterEmbed.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.FooterEmbed, "FooterEmbed");
+            this.FooterEmbed.Name = "FooterEmbed";
+            this.FooterEmbed.TextChanged += new System.EventHandler(this.FooterEmbed_TextChanged);
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.Name = "label10";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            // 
             // ColorEmbedText
             // 
             this.ColorEmbedText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
@@ -154,6 +168,7 @@
             resources.ApplyResources(this.ColorEmbedText, "ColorEmbedText");
             this.ColorEmbedText.ForeColor = System.Drawing.Color.White;
             this.ColorEmbedText.Name = "ColorEmbedText";
+            this.ColorEmbedText.TextChanged += new System.EventHandler(this.ColorEmbedText_TextChanged);
             // 
             // ColorEmbedButton
             // 
@@ -192,19 +207,6 @@
             // 
             resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // FooterEmbed
-            // 
-            this.FooterEmbed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.FooterEmbed.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.FooterEmbed, "FooterEmbed");
-            this.FooterEmbed.Name = "FooterEmbed";
             // 
             // Form1
             // 

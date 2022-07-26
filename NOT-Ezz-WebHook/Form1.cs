@@ -195,5 +195,15 @@ namespace NOT_Ezz_WebHook
         {
 
         }
+
+        private void ColorEmbedText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FooterEmbed_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
