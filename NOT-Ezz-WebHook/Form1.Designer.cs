@@ -50,11 +50,8 @@
             this.EmbedTitle = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.ColorEmbed = new System.Windows.Forms.ColorDialog();
-<<<<<<< HEAD
             this.label10 = new System.Windows.Forms.Label();
             this.FooterEmbed = new System.Windows.Forms.TextBox();
-=======
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,11 +133,8 @@
             // 
             // groupBox1
             // 
-<<<<<<< HEAD
             this.groupBox1.Controls.Add(this.FooterEmbed);
             this.groupBox1.Controls.Add(this.label10);
-=======
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
             this.groupBox1.Controls.Add(this.ColorEmbedText);
             this.groupBox1.Controls.Add(this.ColorEmbedButton);
             this.groupBox1.Controls.Add(this.label9);
@@ -199,7 +193,6 @@
             resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
             // 
-<<<<<<< HEAD
             // label10
             // 
             resources.ApplyResources(this.label10, "label10");
@@ -213,8 +206,6 @@
             resources.ApplyResources(this.FooterEmbed, "FooterEmbed");
             this.FooterEmbed.Name = "FooterEmbed";
             // 
-=======
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -266,11 +257,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ColorDialog ColorEmbed;
         private System.Windows.Forms.TextBox ColorEmbedText;
-<<<<<<< HEAD
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox FooterEmbed;
-=======
->>>>>>> b8ecaf99d70cd5555389940f39d24e03f26c5ab6
     }
 }
 
